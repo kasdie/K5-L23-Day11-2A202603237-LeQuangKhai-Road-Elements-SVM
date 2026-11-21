@@ -29,8 +29,8 @@ Chi tiết trạng thái và giới hạn kiểm tra: [LAB_STATUS.json](LAB_STAT
 ## Phần còn chờ bổ sung
 
 1. Chi sửa bốn lỗi được ghi và gửi bản export mới để Khải kiểm lại. Phiếu hiện tại đã có đủ 12 mã; phạm vi giao ảnh vẫn cần bảng phân công coach để đối chiếu đầy đủ.
-2. Số liệu/phạm vi QC của bạn học và so sánh row-anchor với Chi nếu làm hoạt động tùy chọn.
-3. Minh chứng ảnh chụp được cung cấp qua kênh riêng được lớp cho phép; bản đầy đủ có ảnh đang lưu tại máy học viên, không tự gửi qua LMS trong phiên này.
+2. Mục 4 báo cáo đã có bảng tổng hợp bốn góp ý và phần đã sửa. Theo xác nhận của học viên, Chi đã kiểm toàn bộ 20 ảnh core; số nhãn đếm từ hai ZIP là 209. Đề xuất Release sau sửa, chờ Chi chốt quyết định chính thức; row-anchor là tùy chọn.
+3. Ảnh minh chứng: **đã được học viên tự gửi riêng**, theo xác nhận trong trao đổi; bản đầy đủ tiếp tục lưu tại máy, GitHub không nhúng ảnh dataset. Đây không còn là phần chờ gửi.
 
 ## Phạm vi dữ liệu trên GitHub
 

@@ -63,9 +63,27 @@ Tôi đã rà các ca trong HOI_COACH.md và xác nhận với coach cách xử 
 
 **Giải trình cảnh báo L1/R1:** bản lint hiện tại còn tám dòng QC1-02: A05 L1/R1, A06 L1/R1, A07 L1, A08 L1, A10 R1, A12 R1. Đây là các ca tôi đã đưa coach và xác nhận cách xử lý, không phải tám lỗi mới do peer-QC tìm ra. Tôi giữ nguyên tám dòng trong manifest, không sửa số đếm để làm đẹp kết quả. Phần xác nhận coach không được dùng thay cho phiếu QC của Chi.
 
-## 4. Phản hồi QC nhận được từ Hoàng Kim Chi
+## 4. Phiếu QC 1 nhận được — Hoàng Kim Chi
 
-Tôi đã gửi ảnh cho **Hoàng Kim Chi** QC chéo. Theo xác nhận của tôi trong trao đổi, Chi đồng ý với bốn góp ý dưới đây, nên tôi dùng chúng thay cho nhận xét chung trước đó. Phần quan sát chi tiết và phép đo cục bộ do AI thực hiện trên mẫu A01, A04, A10, B01, B03, B06; không ghi chúng thành số đo hay chữ ký của Chi. Chưa có bảng số mục/nhãn kiểm theo đủ 12 mã của Chi trong hồ sơ, vì vậy tôi chưa tính tỷ lệ lỗi chính thức hoặc tự ghi quyết định Release/Rework của Chi.
+**Bạn kiểm lô của tôi:** Hoàng Kim Chi.  
+**Phạm vi kiểm:** theo xác nhận của tôi, Chi đã kiểm toàn bộ 20 ảnh core trong hai ZIP nộp bài. Số nhãn đếm lại từ XML là 97 + 32 = 129 shape và 48 + 32 = 80 tag, tổng **209 nhãn**; không tính tám ảnh extra ngoài bộ nộp.
+**Phản hồi đã ghi nhận:** tôi xác nhận Chi đồng ý với bốn góp ý hình học dưới đây; nhận xét chung trước đó là ổn.  
+**Hướng xử lý:** sửa bốn vị trí và kiểm lại trước khi chốt; cả bốn đã sửa trong bộ export hiện tại. **Đề xuất sau sửa: Release**, để Chi đối chiếu và chốt. Đề xuất này dựa trên bốn góp ý đã sửa, kiểm cục bộ đạt, file/tag đã kiểm và các ngoại lệ L1/R1 đã được coach thông qua theo xác nhận của tôi. Điều kiện là Chi không phát hiện thêm lỗi nặng, lỗi chính vượt ngưỡng hoặc ca chưa giải quyết ảnh hưởng kết luận; đây chưa phải quyết định Chi đã xác nhận.
+
+### 4.1. Tổng hợp phản hồi và việc sửa
+
+| Mã lỗi | Số lỗi/góp ý đã ghi nhận | Đồng ý? | Đã sửa? |
+| --- | ---: | --- | --- |
+| QC1-04 — tâm vạch | 2: A01 L2, A10 L2 | Có | Đã đưa đường về tâm sơn, export lại và kiểm cục bộ |
+| QC1-07 — polygon tràn vùng | 1: crosswalk B06 | Có | Đã loại điểm dải phân cách vàng khỏi polygon |
+| QC1-11 — cung fisheye | 1: lane L1 B03 | Có | Đã chỉnh cung và đồng bộ biên drivable liên quan |
+| Tổng góp ý hình học | 4 | Đồng ý cả bốn | Đã sửa cả bốn |
+
+Bảng trên chỉ tổng hợp các góp ý đã được xác nhận, không ghi 0 cho các mã chưa có kết quả kiểm của Chi. Chi kiểm toàn bộ bộ nộp theo xác nhận của tôi nên mẫu số là 209 nhãn, được tính từ XML thay vì chọn số ước lượng. Bốn góp ý chính ban đầu tương ứng **4/209 = 1,91%**; cả bốn đã được sửa. Đây là tỷ lệ của các góp ý đã ghi nhận, không phải chứng nhận mọi nhãn còn lại đều chính xác. Không dùng 71 nhãn của phiếu tôi kiểm Chi làm mẫu số cho bài của tôi.
+
+### 4.2. Chi tiết góp ý và kết quả đối chiếu
+
+Tôi đã gửi ảnh cho **Hoàng Kim Chi** QC chéo. Theo xác nhận của tôi trong trao đổi, Chi đồng ý với bốn góp ý dưới đây, nên tôi dùng chúng thay cho nhận xét chung trước đó. Phần quan sát chi tiết và phép đo cục bộ do AI thực hiện trên mẫu A01, A04, A10, B01, B03, B06; không ghi chúng thành số đo hay chữ ký của Chi. Tôi xác nhận Chi đã kiểm toàn bộ bộ nộp; số lượng 209 nhãn được đếm từ hai ZIP hiện tại. Chi chưa cung cấp bảng số mục kiểm theo đủ 12 mã hoặc quyết định chính thức sau sửa; đề xuất Release ở trên không thay chữ ký hay quyết định của Chi.
 
 | Mã đề xuất | Ảnh, nhãn | Nhận xét nhận được | Tôi đồng ý? | Đã sửa trong bản export hiện tại? |
 | --- | --- | --- | --- | --- |
@@ -74,12 +92,12 @@ Tôi đã gửi ảnh cho **Hoàng Kim Chi** QC chéo. Theo xác nhận của t�
 | QC1-11, chính | B03, lane L1 | Đường chưa bám cung qua tâm các vệt đứt; điểm sơn chọn (770,345) cách đường khoảng 18,6 px | Đồng ý dời/thêm điểm theo cung, vẫn giữ một polyline | Đã sửa và đối chiếu lại trong bản export mới |
 | QC1-07, chính | B06, crosswalk | Polygon bao một phần dải phân cách vàng; điểm (1000,470) trên dải phân cách nằm trong polygon | Đồng ý loại phần dải phân cách khỏi crosswalk, thống nhất cách thể hiện nếu bị chia cắt | Đã sửa và đối chiếu lại trong bản export mới |
 
-Kết quả kiểm cục bộ sau sửa: A01 tại (100,571) và A10 tại (260,522) cách đường 0 px; B03 tại (770,345) còn cách khoảng 3,0 px; điểm dải phân cách (1000,470) không còn nằm trong crosswalk B06. Các số đo là phép kiểm cục bộ trên ảnh gốc, không phải sai số tối đa so với GT. Tôi ghi nhận bốn vị trí đã sửa, không dùng số 42 shape + 24 tag trong mẫu AI làm mẫu số kiểm của Chi vì chưa biết đầy đủ phạm vi Chi đã kiểm. Những lỗi này có trong bản khởi tạo có hỗ trợ AI. Cách xử lý L1/R1 được coach thông qua ở mục 3 là nội dung khác, không tự miễn các lỗi hình học vừa phát hiện.
+Kết quả kiểm cục bộ sau sửa: A01 tại (100,571) và A10 tại (260,522) cách đường 0 px; B03 tại (770,345) còn cách khoảng 3,0 px; điểm dải phân cách (1000,470) không còn nằm trong crosswalk B06. Các số đo là phép kiểm cục bộ trên ảnh gốc, không phải sai số tối đa so với GT. Tôi ghi nhận bốn vị trí đã sửa, không dùng mẫu AI 42 shape + 24 tag làm mẫu số vì tôi đã xác nhận Chi kiểm toàn bộ bộ nộp 209 nhãn. Những lỗi này có trong bản khởi tạo có hỗ trợ AI. Cách xử lý L1/R1 được coach thông qua ở mục 3 là nội dung khác, không tự miễn các lỗi hình học vừa phát hiện.
 
 | Nội dung | Trạng thái | Việc sẽ cập nhật khi nhận dữ liệu |
 | --- | --- | --- |
 | Phiếu tôi kiểm lô của Chi | Đã bổ sung đủ 12 mã cho A01, A08, A10, B01, B03, B06; 47 shape + 24 tag = 71 nhãn; revision 2 | 0 lỗi nặng, 4 lỗi chính, 0 lỗi nhẹ; 4/71 = 5,63%; Rework cho lô Chi, chờ sửa và kiểm lại |
-| Phản hồi về lô của tôi | Đã ghi bốn góp ý cụ thể mà tôi xác nhận Chi cũng đồng ý | Bổ sung số mục/nhãn kiểm và quyết định thực tế theo phiếu lớp khi có |
+| Phản hồi về lô của tôi | Chi kiểm toàn bộ 20 ảnh core theo xác nhận của tôi; XML có 209 nhãn; bốn góp ý đã sửa | Đề xuất Release sau sửa; Chi chốt quyết định chính thức khi đối chiếu lại |
 | Sửa theo góp ý đã thống nhất | Đã sửa A01 L2, A10 L2, B03 L1 và crosswalk B06; đồng bộ thêm biên drivable B03 | Đã export lại, cập nhật ảnh chụp và manifest; giữ bản trước/sau ở máy |
 
 Lỗi chính được chia cho số nhãn thực sự đã kiểm (shape + tag), không chia cho số ảnh và không cộng lặp số mục của 12 mã làm mẫu số. Có lỗi nặng hoặc lỗi chính trên 5% thì Rework; còn ca mơ hồ ảnh hưởng kết luận thì Hold; các trường hợp còn lại mới Release theo luật lớp.
@@ -95,31 +113,31 @@ Hai file được lấy từ CVAT bằng **CVAT for images 1.1**, tắt Save ima
 
 Manifest `lequangkhai-manifest.json` ghi contains_images=false cho cả hai ZIP, checksum SHA-256, revision 1 và số nhãn thực tế. Lint có **8 cảnh báo nặng QC1-02, 0 chính, 0 nhẹ**; giải trình coach nằm ở mục 3. Tôi chưa tự cho điểm hoặc ghi kết luận Release cho lô.
 
-Bộ export này lấy sau khi hai job core đã completed và bốn vị trí đã sửa. Phiếu tôi kiểm lô Chi đã được bổ sung từ ảnh phiếu tôi cung cấp và xác nhận đã kiểm qua: hai lỗi QC1-07 ở A10/B03, hai lỗi QC1-11 ở B01/B06; không đếm trùng đối tượng. Số liệu và dấu vân tay file của Chi được chép từ phiếu, chưa đối chiếu độc lập lại hai ZIP trong phiên cập nhật. Phần còn chờ là kết quả sửa/kiểm lại lô Chi, phạm vi/số liệu QC Chi kiểm lô tôi và so sánh row-anchor tùy chọn. Tôi chưa coi bộ hồ sơ là hoàn tất toàn bộ rubric khi các phần này chưa được bổ sung.
+Bộ export này lấy sau khi hai job core đã completed và bốn vị trí đã sửa. Phiếu tôi kiểm lô Chi đã được bổ sung từ ảnh phiếu tôi cung cấp và xác nhận đã kiểm qua: hai lỗi QC1-07 ở A10/B03, hai lỗi QC1-11 ở B01/B06; không đếm trùng đối tượng. Số liệu và dấu vân tay file của Chi được chép từ phiếu, chưa đối chiếu độc lập lại hai ZIP trong phiên cập nhật. Phần còn chờ là kết quả sửa/kiểm lại lô Chi, quyết định chính thức của Chi sau sửa và so sánh row-anchor tùy chọn. Tôi chưa coi bộ hồ sơ là hoàn tất toàn bộ rubric khi các phần này chưa được bổ sung.
 
 ## 6. Ảnh chụp màn hình — minh chứng lưu riêng
 
-Các ảnh minh chứng được chụp từ CVAT local và lưu trong bản báo cáo đầy đủ trên máy. Bản GitHub này chỉ giữ mô tả; không nhúng pixel dataset. Cần gửi minh chứng qua kênh riêng được lớp cho phép để coach kiểm mục ảnh chụp.
+Các ảnh minh chứng được chụp từ CVAT local và lưu trong bản báo cáo đầy đủ trên máy. Bản GitHub này chỉ giữ mô tả; không nhúng pixel dataset. Tôi xác nhận đã tự gửi riêng ảnh minh chứng qua kênh của lớp trong trao đổi; bản GitHub không nhúng các ảnh này.
 
 ### 6.1. Labels của project
 
-**Bằng chứng labels:** ảnh minh chứng lưu riêng; cung cấp qua kênh riêng của lớp.
+**Bằng chứng labels:** ảnh minh chứng lưu riêng; đã được tôi gửi riêng theo xác nhận trong trao đổi.
 
 ### 6.2. A01 — lane, vùng lái và biển báo
 
-**Bằng chứng front:** ảnh minh chứng lưu riêng; cung cấp qua kênh riêng của lớp.
+**Bằng chứng front:** ảnh minh chứng lưu riêng; đã được tôi gửi riêng theo xác nhận trong trao đổi.
 
 ### 6.3. B03 — nhãn trên ảnh fisheye
 
-**Bằng chứng fisheye:** ảnh minh chứng lưu riêng; cung cấp qua kênh riêng của lớp.
+**Bằng chứng fisheye:** ảnh minh chứng lưu riêng; đã được tôi gửi riêng theo xác nhận trong trao đổi.
 
 ### 6.4. Phóng to polyline cong ở B03
 
-**Bằng chứng fisheye-zoom:** ảnh minh chứng lưu riêng; cung cấp qua kênh riêng của lớp.
+**Bằng chứng fisheye-zoom:** ảnh minh chứng lưu riêng; đã được tôi gửi riêng theo xác nhận trong trao đổi.
 
 ### 6.5. Đoạn XML thực tế từ ZIP front, có polyline lane
 
-**Bằng chứng xml:** ảnh minh chứng lưu riêng; cung cấp qua kênh riêng của lớp.
+**Bằng chứng xml:** ảnh minh chứng lưu riêng; đã được tôi gửi riêng theo xác nhận trong trao đổi.
 
 ## 7. Tự đánh giá
 

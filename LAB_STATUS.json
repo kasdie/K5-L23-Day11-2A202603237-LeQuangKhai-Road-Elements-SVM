@@ -82,13 +82,28 @@
     "verification_limit": "Counts and ZIP hashes copied from learner-provided form; no independent recheck of Chi ZIPs in this update"
   },
   "remaining_required": [
-    "Supplement actual scope/counts/decision of Chi QC on Khai when available",
-    "Deliver private screenshot evidence via classroom-approved channel"
+    "Chi confirms official post-repair QC decision when available"
   ],
   "lint_qc1_02": "Eight warnings retained, with student-reported coach resolution in COACH_RESOLUTIONS.md",
-  "image_evidence": "Full screenshot evidence retained locally for private classroom delivery; excluded from public repo",
+  "image_evidence": "Learner confirms private evidence already sent separately; full local report retained, dataset pixels excluded from GitHub",
   "follow_up": [
     "Chi repairs revision 2 findings and resubmits for recheck",
     "Optional row-anchor comparison with Chi"
-  ]
+  ],
+  "received_peer_feedback": {
+    "reviewer": "Hoàng Kim Chi",
+    "source": "Learner confirms Chi agrees with four recorded comments; measurements by AI",
+    "recorded_comments": {
+      "QC1-04": 2,
+      "QC1-07": 1,
+      "QC1-11": 1
+    },
+    "repairs": "All four repaired and locally checked in current export",
+    "reviewed_label_count": 209,
+    "official_post_repair_decision": null,
+    "review_scope": "Entire submitted 20-image core lot, as confirmed by learner",
+    "label_count_source": "Counted from own submitted XML: 129 shapes + 80 tags",
+    "recorded_pre_repair_major_rate_percent": 1.91,
+    "post_repair_recommendation": "Release, conditional on Chi recheck and no additional blocking findings; not an actual decision by Chi"
+  }
 }
