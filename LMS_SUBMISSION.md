@@ -4,7 +4,7 @@ Học viên: **Lê Quang Khải — 2A202603237**. Bạn QC: Hoàng Kim Chi.
 
 Repo nộp link LMS: [kasdie/K5-L23-Day11-2A202603237-LeQuangKhai-Road-Elements-SVM](https://github.com/kasdie/K5-L23-Day11-2A202603237-LeQuangKhai-Road-Elements-SVM).
 
-**Trạng thái: đã hoàn thiện phần annotation và báo cáo có thể làm độc lập; phiếu Khải kiểm lô Chi sẽ bổ sung khi học viên cung cấp.** Đây là bàn giao từng phần theo yêu cầu, chưa phải kết luận Release hoặc điểm đạt toàn bộ rubric.
+**Trạng thái: đã có annotation, báo cáo và phiếu Khải kiểm lô Chi revision 2 được học viên xác nhận đã kiểm qua.** Kết luận Rework trong phiếu dành cho lô Chi; chưa phải kết luận Release hoặc điểm đạt toàn bộ rubric của Khải.
 
 ## Các file bàn giao
 
@@ -13,7 +13,7 @@ Repo nộp link LMS: [kasdie/K5-L23-Day11-2A202603237-LeQuangKhai-Road-Elements-
 | [lequangkhai-front.zip](lms_submission/lequangkhai-front.zip) | Nhãn 12 ảnh core front, sau sửa; không kèm ảnh |
 | [lequangkhai-fisheye.zip](lms_submission/lequangkhai-fisheye.zip) | Nhãn 8 ảnh core fisheye, sau sửa; không kèm ảnh |
 | [lequangkhai-manifest.json](lms_submission/lequangkhai-manifest.json) | Revision 1, checksum và lint của hai ZIP hiện tại |
-| [lequangkhai-qc1-for-hoangkimchi.md](lms_submission/lequangkhai-qc1-for-hoangkimchi.md) | **Đang chờ** dữ liệu/kết quả Khải kiểm lô Chi; không có số lỗi giả định |
+| [lequangkhai-qc1-for-hoangkimchi.md](lms_submission/lequangkhai-qc1-for-hoangkimchi.md) | Đã bổ sung từ ảnh phiếu học viên cung cấp: 6 ảnh, 71 nhãn, 4 lỗi chính (5,63%), Rework cho lô Chi revision 2 |
 | [lequangkhai-report.md](lms_submission/lequangkhai-report.md) | Báo cáo đã cập nhật số lượng, bốn chỉnh sửa, tự đánh giá và các phần còn chờ; ảnh minh chứng lưu riêng |
 
 ## Phần đã hoàn thiện
@@ -28,7 +28,7 @@ Chi tiết trạng thái và giới hạn kiểm tra: [LAB_STATUS.json](LAB_STAT
 
 ## Phần còn chờ bổ sung
 
-1. Phiếu Khải kiểm lô Chi theo sáu ảnh được phân công, đủ 12 mã và số nhãn thực sự đã kiểm. Chi đồng ý góp ý về lô Khải không thay cho phiếu này.
+1. Chi sửa bốn lỗi được ghi và gửi bản export mới để Khải kiểm lại. Phiếu hiện tại đã có đủ 12 mã; phạm vi giao ảnh vẫn cần bảng phân công coach để đối chiếu đầy đủ.
 2. Số liệu/phạm vi QC của bạn học và so sánh row-anchor với Chi nếu làm hoạt động tùy chọn.
 3. Minh chứng ảnh chụp được cung cấp qua kênh riêng được lớp cho phép; bản đầy đủ có ảnh đang lưu tại máy học viên, không tự gửi qua LMS trong phiên này.
 
@@ -39,5 +39,5 @@ Theo [ATTRIBUTION.md](ATTRIBUTION.md), gói ảnh lớp không được phân ph
 ## Kiểm tra và cập nhật
 
 - Kiểm công cụ: `PYTHONPATH=src python -m road_lab.road_check selftest`; chạy test bằng `python -m pytest -q` trong môi trường có pytest.
-- Kiểm bộ nộp: `.venv/bin/python scripts/check_delivery.py --directory lms_submission --name lequangkhai --peer hoangkimchi`. Công cụ hiện vẫn báo phiếu Chi còn chờ và các cảnh báo QC1-02; đây là trạng thái thực tế, không phải lỗi được che đi để cho phép bàn giao từng phần.
-- Sau khi có dữ liệu QC, cập nhật file tương ứng và báo cáo. Khi tạo lại bản GitHub từ bộ đầy đủ local, dùng `scripts/prepare_lms_repo.py --out <thư-mục-mới>` để loại ảnh nhúng, rồi lưu bản cũ trước khi thay bộ hiện tại.
+- Kiểm bộ nộp: `.venv/bin/python scripts/check_delivery.py --directory lms_submission --name lequangkhai --peer hoangkimchi`. Phiếu đã điền và qua kiểm cấu trúc; công cụ vẫn giữ tám cảnh báo QC1-02 của lô Khải có giải trình coach. Công cụ không xác minh lại chất lượng lô Chi từ ảnh phiếu.
+- Khi Chi gửi bản đã sửa hoặc bổ sung phiếu Chi kiểm lô Khải, cập nhật file tương ứng và báo cáo. Khi tạo lại bản GitHub từ bộ đầy đủ local, dùng `scripts/prepare_lms_repo.py --out <thư-mục-mới>` để loại ảnh nhúng, rồi lưu bản cũ trước khi thay bộ hiện tại.

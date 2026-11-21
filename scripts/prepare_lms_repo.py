@@ -25,9 +25,8 @@ def public_report(text):
         'Ảnh dưới đây được chụp lại từ CVAT local trong phiên cập nhật báo cáo, không dùng ảnh minh họa tổng hợp. Ảnh được nhúng trực tiếp để không phụ thuộc thư mục ảnh ngoài; bản HTML xem kèm cũng chứa các ảnh này.',
         'Các ảnh minh chứng được chụp từ CVAT local và lưu trong bản báo cáo đầy đủ trên máy. Bản GitHub này chỉ giữ mô tả; không nhúng pixel dataset. Cần gửi minh chứng qua kênh riêng được lớp cho phép để coach kiểm mục ảnh chụp.')
     text = text.replace('## 6. Ảnh chụp màn hình', '## 6. Ảnh chụp màn hình — minh chứng lưu riêng')
-    return ('> BẢN BÀN GIAO TỪNG PHẦN: đã sửa bốn vị trí hình học và completed hai job core. Còn chờ '
-            'phiếu Khải kiểm lô của Chi và số liệu QC thực tế. '
-            'Ảnh minh chứng được lưu riêng, chưa gửi qua LMS trong phiên này.\n\n' + text)
+    return ('> BẢN GITHUB: ảnh minh chứng được lưu riêng; trạng thái QC và giới hạn kiểm tra '
+            'được ghi trong báo cáo và phiếu QC đi kèm.\n\n' + text)
 
 
 def prepare(source, destination):

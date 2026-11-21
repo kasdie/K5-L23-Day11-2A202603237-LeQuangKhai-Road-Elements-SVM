@@ -25,6 +25,6 @@ Bản export ngày 21/11 vẫn có tám cảnh báo trên. Không thay đổi s�
 - B06: đã xem lại ranh giới drivable ở dải phân cách/cọc; dùng cách xử lý đã trao đổi với coach.
 - Ảnh thêm: bản hiện tại không làm phần thưởng; không đánh dấu task extra có nhãn hình học chỉ vì đã có tag.
 
-## 4. Hồ sơ QC còn chờ
+## 4. Hồ sơ QC và phần theo dõi
 
-Đã ghép QC với Hoàng Kim Chi. Chờ dữ liệu và kết quả thực tế để Khải hoàn thiện phiếu kiểm lô của Chi; học viên sẽ cung cấp bổ sung. Khải đã gửi ảnh; nhận xét chung ban đầu đã được thay bằng bốn góp ý hình học A01 L2, A10 L2, B03 L1 và crosswalk B06 mà Khải xác nhận Chi cũng đồng ý. Các phép đo là từ lần rà của AI, không phải số đo được gán cho Chi. Phiếu/số liệu QC chi tiết và số liệu so sánh row-anchor với Chi chưa được cung cấp trong hồ sơ. Không điền số lỗi hoặc quyết định thay người kiểm.
+Đã ghép QC với Hoàng Kim Chi. Khải đã cung cấp ảnh phiếu và xác nhận đã kiểm qua: sáu ảnh A01, A08, A10, B01, B03, B06; 71 nhãn; bốn lỗi chính; Rework cho lô Chi revision 2. Phiếu đã được chép lại trong bộ nộp; chờ Chi sửa và kiểm lại. Khải đã gửi ảnh; nhận xét chung ban đầu đã được thay bằng bốn góp ý hình học A01 L2, A10 L2, B03 L1 và crosswalk B06 mà Khải xác nhận Chi cũng đồng ý. Các phép đo là từ lần rà của AI, không phải số đo được gán cho Chi. Phạm vi/số liệu chính thức Chi kiểm lô Khải và số liệu so sánh row-anchor vẫn chưa được cung cấp. Không điền số lỗi hoặc quyết định thay người kiểm.

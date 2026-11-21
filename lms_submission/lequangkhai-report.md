@@ -1,4 +1,4 @@
-> BẢN BÀN GIAO TỪNG PHẦN: đã sửa bốn vị trí hình học và completed hai job core. Còn chờ phiếu Khải kiểm lô của Chi và số liệu QC thực tế. Ảnh minh chứng được lưu riêng, chưa gửi qua LMS trong phiên này.
+> BẢN GITHUB: ảnh minh chứng được lưu riêng; trạng thái QC và giới hạn kiểm tra được ghi trong báo cáo và phiếu QC đi kèm.
 
 # Báo cáo cá nhân — Ngày 11: Road Elements & SVM
 
@@ -8,9 +8,9 @@
 **Project:** [d11-road-lequangkhai](http://localhost:8080/projects/5)  
 **CVAT:** 2.83.0 · **Guideline:** Road v1.0 · **Revision trong manifest:** 1  
 **Thời điểm tạo bộ export hiện tại:** 21/11/2026 11:02:54 +0700 (giờ Việt Nam).  
-**Số lần nộp lại sau Rework:** 0; đã sửa bốn vị trí hình học; còn chờ dữ liệu để kiểm lô của Chi và hoàn thiện phiếu QC tương ứng.
+**Số lần nộp lại sau Rework:** 0 đối với lô của tôi; đã sửa bốn vị trí hình học. Phiếu tôi kiểm lô Chi revision 2 đã bổ sung, kết luận Rework cho lô Chi.
 
-Tôi thực hiện 20 ảnh bắt buộc A01–A12 và B01–B08 trên CVAT local. Tôi có sử dụng AI hỗ trợ tạo nhãn ban đầu và công cụ kiểm file, sau đó tự xem lại ảnh, trao đổi các ca khó với coach và rà nhãn trên CVAT. Sau phản hồi ban đầu, tôi ghi nhận bốn góp ý hình học từ lần rà có AI hỗ trợ; tôi đã xác nhận Hoàng Kim Chi cũng đồng ý với các góp ý này. Mục 4 ghi các góp ý cụ thể và kết quả sửa; phiếu tôi kiểm lô của Chi và phần so sánh ở mục 8 tiếp tục chờ dữ liệu thực tế.
+Tôi thực hiện 20 ảnh bắt buộc A01–A12 và B01–B08 trên CVAT local. Tôi có sử dụng AI hỗ trợ tạo nhãn ban đầu và công cụ kiểm file, sau đó tự xem lại ảnh, trao đổi các ca khó với coach và rà nhãn trên CVAT. Sau phản hồi ban đầu, tôi ghi nhận bốn góp ý hình học từ lần rà có AI hỗ trợ; tôi đã xác nhận Hoàng Kim Chi cũng đồng ý với các góp ý này. Mục 4 ghi các góp ý cụ thể và kết quả sửa. Tôi đã bổ sung phiếu kiểm lô Chi revision 2 theo nội dung đã kiểm qua và cung cấp trong trao đổi; phần so sánh row-anchor ở mục 8 vẫn chờ dữ liệu.
 
 Trường nguồn `source` của các hình và tag trong CVAT hiện là `manual`, được chuyển theo yêu cầu sau khi rà nhãn. Lần chuyển này chỉ đổi metadata nguồn; tọa độ, thuộc tính và số lượng hình/tag được đối chiếu và giữ nguyên. Phần mô tả AI hỗ trợ tạo nhãn ban đầu vẫn được giữ trong báo cáo.
 
@@ -22,7 +22,7 @@ Trường nguồn `source` của các hình và tag trong CVAT hiện là `manua
 | Thuộc tính và giá trị | Đối chiếu cấu hình API với taxonomy của repo: khớp | Thuộc tính hiện có được giữ trong bản export và kiểm đọc lại |
 | 4 tag ảnh | 20/20 ảnh core có camera, timeofday, weather, source | Camera lấy theo tên ảnh; source=real cho ảnh dataset |
 | Task và phạm vi làm | front 12 ảnh; fisheye 8 ảnh | Hai task extra mới có tag, chưa tính là ảnh đã gán và không xin điểm thưởng |
-| Tình trạng job tại lúc export | Hai job core đều completed | Đã hoàn tất phần annotation của tôi; phiếu tôi kiểm lô của Chi là phần hồ sơ riêng đang chờ |
+| Tình trạng job tại lúc export | Hai job core đều completed | Đã hoàn tất phần annotation của tôi; phiếu tôi kiểm lô Chi revision 2 đã được bổ sung |
 
 Tôi phân biệt tag với nhãn hình học: tag là thông tin cho toàn ảnh, không tạo đường hay vùng trên ảnh. Trong Objects, lane/curb hiện là Polyline Shape, vùng hiện là Polygon Shape, còn đèn/biển là Rectangle Shape. Để sửa thuộc tính, tôi chọn đối tượng, mở Details và kiểm lại giá trị; không coi giá trị mặc định là đã đúng.
 
@@ -78,7 +78,7 @@ Kết quả kiểm cục bộ sau sửa: A01 tại (100,571) và A10 tại (260,
 
 | Nội dung | Trạng thái | Việc sẽ cập nhật khi nhận dữ liệu |
 | --- | --- | --- |
-| Phiếu tôi kiểm lô của Chi | Chờ ảnh/link job, hai ZIP, manifest đúng revision và 6 ảnh được phân công | Điền đủ 12 mã, số mục kiểm, từng lỗi, số nhãn và quyết định vào lequangkhai-qc1-for-hoangkimchi.md |
+| Phiếu tôi kiểm lô của Chi | Đã bổ sung đủ 12 mã cho A01, A08, A10, B01, B03, B06; 47 shape + 24 tag = 71 nhãn; revision 2 | 0 lỗi nặng, 4 lỗi chính, 0 lỗi nhẹ; 4/71 = 5,63%; Rework cho lô Chi, chờ sửa và kiểm lại |
 | Phản hồi về lô của tôi | Đã ghi bốn góp ý cụ thể mà tôi xác nhận Chi cũng đồng ý | Bổ sung số mục/nhãn kiểm và quyết định thực tế theo phiếu lớp khi có |
 | Sửa theo góp ý đã thống nhất | Đã sửa A01 L2, A10 L2, B03 L1 và crosswalk B06; đồng bộ thêm biên drivable B03 | Đã export lại, cập nhật ảnh chụp và manifest; giữ bản trước/sau ở máy |
 
@@ -95,7 +95,7 @@ Hai file được lấy từ CVAT bằng **CVAT for images 1.1**, tắt Save ima
 
 Manifest `lequangkhai-manifest.json` ghi contains_images=false cho cả hai ZIP, checksum SHA-256, revision 1 và số nhãn thực tế. Lint có **8 cảnh báo nặng QC1-02, 0 chính, 0 nhẹ**; giải trình coach nằm ở mục 3. Tôi chưa tự cho điểm hoặc ghi kết luận Release cho lô.
 
-Bộ export này lấy sau khi hai job core đã completed và bốn vị trí đã sửa. Phần còn chờ là phiếu tôi kiểm lô của Chi, phạm vi/số liệu QC của bạn học và so sánh row-anchor tùy chọn. Tôi chưa coi bộ hồ sơ là hoàn tất toàn bộ rubric khi các phần này chưa được bổ sung.
+Bộ export này lấy sau khi hai job core đã completed và bốn vị trí đã sửa. Phiếu tôi kiểm lô Chi đã được bổ sung từ ảnh phiếu tôi cung cấp và xác nhận đã kiểm qua: hai lỗi QC1-07 ở A10/B03, hai lỗi QC1-11 ở B01/B06; không đếm trùng đối tượng. Số liệu và dấu vân tay file của Chi được chép từ phiếu, chưa đối chiếu độc lập lại hai ZIP trong phiên cập nhật. Phần còn chờ là kết quả sửa/kiểm lại lô Chi, phạm vi/số liệu QC Chi kiểm lô tôi và so sánh row-anchor tùy chọn. Tôi chưa coi bộ hồ sơ là hoàn tất toàn bộ rubric khi các phần này chưa được bổ sung.
 
 ## 6. Ảnh chụp màn hình — minh chứng lưu riêng
 

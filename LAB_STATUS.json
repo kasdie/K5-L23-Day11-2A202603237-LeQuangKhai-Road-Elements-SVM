@@ -4,7 +4,7 @@
     "name": "Lê Quang Khải",
     "id": "2A202603237"
   },
-  "scope": "Partial submission, as requested; peer-QC of Chi will be supplied later",
+  "scope": "Core annotation, report and learner-confirmed QC of Chi revision 2 supplied; no full Release claimed",
   "core_images": 20,
   "shapes": 129,
   "core_tags": 80,
@@ -58,10 +58,37 @@
   ],
   "related_adjustment": "B03 drivable direct boundary follows repaired L1",
   "verification_limit": "Local paint-reference checks only; not GT score or full Release",
-  "peer_qc_of_chi": "pending user-provided files/results",
+  "peer_qc_of_chi": {
+    "status": "learner-confirmed form transcribed from supplied screenshots",
+    "peer_id": "2A202603172",
+    "revision": 2,
+    "images": [
+      "A01",
+      "A08",
+      "A10",
+      "B01",
+      "B03",
+      "B06"
+    ],
+    "shapes": 47,
+    "tags": 24,
+    "labels": 71,
+    "critical_errors": 0,
+    "major_errors": 4,
+    "minor_errors": 0,
+    "major_rate_percent": 5.63,
+    "decision": "Rework",
+    "pending_scope_cases": 1,
+    "verification_limit": "Counts and ZIP hashes copied from learner-provided form; no independent recheck of Chi ZIPs in this update"
+  },
   "remaining_required": [
-    "Complete lequangkhai-qc1-for-hoangkimchi.md when learner provides actual QC of Chi"
+    "Supplement actual scope/counts/decision of Chi QC on Khai when available",
+    "Deliver private screenshot evidence via classroom-approved channel"
   ],
   "lint_qc1_02": "Eight warnings retained, with student-reported coach resolution in COACH_RESOLUTIONS.md",
-  "image_evidence": "Full screenshot evidence retained locally for private classroom delivery; excluded from public repo"
+  "image_evidence": "Full screenshot evidence retained locally for private classroom delivery; excluded from public repo",
+  "follow_up": [
+    "Chi repairs revision 2 findings and resubmits for recheck",
+    "Optional row-anchor comparison with Chi"
+  ]
 }
