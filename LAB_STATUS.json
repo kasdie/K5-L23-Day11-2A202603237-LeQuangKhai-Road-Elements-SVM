@@ -4,7 +4,7 @@
     "name": "Lê Quang Khải",
     "id": "2A202603237"
   },
-  "scope": "Core annotation, report and learner-confirmed QC of Chi revision 2 supplied; no full Release claimed",
+  "scope": "Five-file personal handoff complete; Chi agrees Release after repairs per learner confirmation; grading remains with coach",
   "core_images": 20,
   "shapes": 129,
   "core_tags": 80,
@@ -57,7 +57,7 @@
     }
   ],
   "related_adjustment": "B03 drivable direct boundary follows repaired L1",
-  "verification_limit": "Local paint-reference checks only; not GT score or full Release",
+  "verification_limit": "Geometry measurements are local checks, not GT scores; peer Release confirmed through learner attestation",
   "peer_qc_of_chi": {
     "status": "learner-confirmed form transcribed from supplied screenshots",
     "peer_id": "2A202603172",
@@ -81,9 +81,7 @@
     "pending_scope_cases": 1,
     "verification_limit": "Counts and ZIP hashes copied from learner-provided form; no independent recheck of Chi ZIPs in this update"
   },
-  "remaining_required": [
-    "Chi confirms official post-repair QC decision when available"
-  ],
+  "remaining_required": [],
   "lint_qc1_02": "Eight warnings retained, with student-reported coach resolution in COACH_RESOLUTIONS.md",
   "image_evidence": "Learner confirms private evidence already sent separately; full local report retained, dataset pixels excluded from GitHub",
   "follow_up": [
@@ -100,10 +98,13 @@
     },
     "repairs": "All four repaired and locally checked in current export",
     "reviewed_label_count": 209,
-    "official_post_repair_decision": null,
+    "official_post_repair_decision": "Release",
     "review_scope": "Entire submitted 20-image core lot, as confirmed by learner",
     "label_count_source": "Counted from own submitted XML: 129 shapes + 80 tags",
     "recorded_pre_repair_major_rate_percent": 1.91,
-    "post_repair_recommendation": "Release, conditional on Chi recheck and no additional blocking findings; not an actual decision by Chi"
-  }
+    "post_repair_recommendation": "Release; subsequently accepted by Chi according to learner confirmation",
+    "decision_source": "Learner states Chi confirmed agreement with Release in conversation on 2026-11-21"
+  },
+  "submission_ready": true,
+  "lms_submission_status": "Link ready; actual LMS submission not performed by assistant"
 }

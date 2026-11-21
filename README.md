@@ -1,6 +1,6 @@
 # Ngày 11 · Road Elements & SVM
 
-> Học viên **Lê Quang Khải — 2A202603237**: xem [bộ bàn giao và trạng thái chuẩn bị nộp LMS](LMS_SUBMISSION.md). Đã sửa các điểm hình học, hoàn tất hai job core và cập nhật export/báo cáo; đã bổ sung phiếu Khải kiểm lô Chi revision 2 (4/71 lỗi chính = 5,63%, Rework cho lô Chi). Chưa phải kết luận Release cho toàn bộ rubric.
+> Học viên **Lê Quang Khải — 2A202603237**: xem [bộ bàn giao và trạng thái chuẩn bị nộp LMS](LMS_SUBMISSION.md). Đã sửa các điểm hình học, hoàn tất hai job core và cập nhật export/báo cáo; đã bổ sung phiếu Khải kiểm lô Chi revision 2 (4/71 lỗi chính = 5,63%, Rework cho lô Chi). Chi đã đồng ý Release cho lô Khải sau sửa theo xác nhận của học viên; đủ năm file để nộp LMS, ảnh minh chứng đã gửi riêng. Điểm do coach chấm.
 
 > Trạng thái và giới hạn kiểm tra: [LAB_STATUS.json](LAB_STATUS.json). Giải trình coach: [COACH_RESOLUTIONS.md](COACH_RESOLUTIONS.md). Công cụ phụ cho môi trường local nằm trong scripts/; không kèm dữ liệu ảnh hay tài khoản.
 

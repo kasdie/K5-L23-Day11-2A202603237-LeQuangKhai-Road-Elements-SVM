@@ -68,7 +68,7 @@ Tôi đã rà các ca trong HOI_COACH.md và xác nhận với coach cách xử 
 **Bạn kiểm lô của tôi:** Hoàng Kim Chi.  
 **Phạm vi kiểm:** theo xác nhận của tôi, Chi đã kiểm toàn bộ 20 ảnh core trong hai ZIP nộp bài. Số nhãn đếm lại từ XML là 97 + 32 = 129 shape và 48 + 32 = 80 tag, tổng **209 nhãn**; không tính tám ảnh extra ngoài bộ nộp.
 **Phản hồi đã ghi nhận:** tôi xác nhận Chi đồng ý với bốn góp ý hình học dưới đây; nhận xét chung trước đó là ổn.  
-**Hướng xử lý:** sửa bốn vị trí và kiểm lại trước khi chốt; cả bốn đã sửa trong bộ export hiện tại. **Đề xuất sau sửa: Release**, để Chi đối chiếu và chốt. Đề xuất này dựa trên bốn góp ý đã sửa, kiểm cục bộ đạt, file/tag đã kiểm và các ngoại lệ L1/R1 đã được coach thông qua theo xác nhận của tôi. Điều kiện là Chi không phát hiện thêm lỗi nặng, lỗi chính vượt ngưỡng hoặc ca chưa giải quyết ảnh hưởng kết luận; đây chưa phải quyết định Chi đã xác nhận.
+**Hướng xử lý:** sửa bốn vị trí và kiểm lại trước khi chốt; cả bốn đã sửa trong bộ export hiện tại. **Quyết định nhận được sau sửa: Release.** Tôi xác nhận trong trao đổi ngày 21/11/2026 rằng Hoàng Kim Chi đã đồng ý với kết luận Release cho lô của tôi. Bốn góp ý đã được sửa; các ngoại lệ L1/R1 được giải trình theo xác nhận coach. Việc đồng ý của Chi được ghi theo xác nhận của tôi, không bổ sung chữ ký hay số liệu kiểm khác chưa được cung cấp.
 
 ### 4.1. Tổng hợp phản hồi và việc sửa
 
@@ -83,7 +83,7 @@ Bảng trên chỉ tổng hợp các góp ý đã được xác nhận, không g
 
 ### 4.2. Chi tiết góp ý và kết quả đối chiếu
 
-Tôi đã gửi ảnh cho **Hoàng Kim Chi** QC chéo. Theo xác nhận của tôi trong trao đổi, Chi đồng ý với bốn góp ý dưới đây, nên tôi dùng chúng thay cho nhận xét chung trước đó. Phần quan sát chi tiết và phép đo cục bộ do AI thực hiện trên mẫu A01, A04, A10, B01, B03, B06; không ghi chúng thành số đo hay chữ ký của Chi. Tôi xác nhận Chi đã kiểm toàn bộ bộ nộp; số lượng 209 nhãn được đếm từ hai ZIP hiện tại. Chi chưa cung cấp bảng số mục kiểm theo đủ 12 mã hoặc quyết định chính thức sau sửa; đề xuất Release ở trên không thay chữ ký hay quyết định của Chi.
+Tôi đã gửi ảnh cho **Hoàng Kim Chi** QC chéo. Theo xác nhận của tôi trong trao đổi, Chi đồng ý với bốn góp ý dưới đây, nên tôi dùng chúng thay cho nhận xét chung trước đó. Phần quan sát chi tiết và phép đo cục bộ do AI thực hiện trên mẫu A01, A04, A10, B01, B03, B06; không ghi chúng thành số đo hay chữ ký của Chi. Tôi xác nhận Chi đã kiểm toàn bộ bộ nộp; số lượng 209 nhãn được đếm từ hai ZIP hiện tại. Theo xác nhận mới của tôi, Chi đã đồng ý Release sau sửa. Số mục kiểm chi tiết theo đủ 12 mã chưa được cung cấp nên tôi chỉ tổng hợp các góp ý đã ghi nhận, không tự điền thêm số liệu.
 
 | Mã đề xuất | Ảnh, nhãn | Nhận xét nhận được | Tôi đồng ý? | Đã sửa trong bản export hiện tại? |
 | --- | --- | --- | --- | --- |
@@ -97,7 +97,7 @@ Kết quả kiểm cục bộ sau sửa: A01 tại (100,571) và A10 tại (260,
 | Nội dung | Trạng thái | Việc sẽ cập nhật khi nhận dữ liệu |
 | --- | --- | --- |
 | Phiếu tôi kiểm lô của Chi | Đã bổ sung đủ 12 mã cho A01, A08, A10, B01, B03, B06; 47 shape + 24 tag = 71 nhãn; revision 2 | 0 lỗi nặng, 4 lỗi chính, 0 lỗi nhẹ; 4/71 = 5,63%; Rework cho lô Chi, chờ sửa và kiểm lại |
-| Phản hồi về lô của tôi | Chi kiểm toàn bộ 20 ảnh core theo xác nhận của tôi; XML có 209 nhãn; bốn góp ý đã sửa | Đề xuất Release sau sửa; Chi chốt quyết định chính thức khi đối chiếu lại |
+| Phản hồi về lô của tôi | Chi kiểm toàn bộ 20 ảnh core theo xác nhận của tôi; XML có 209 nhãn; bốn góp ý đã sửa | Đã nhận xác nhận Chi đồng ý Release sau sửa, theo trao đổi của tôi ngày 21/11/2026 |
 | Sửa theo góp ý đã thống nhất | Đã sửa A01 L2, A10 L2, B03 L1 và crosswalk B06; đồng bộ thêm biên drivable B03 | Đã export lại, cập nhật ảnh chụp và manifest; giữ bản trước/sau ở máy |
 
 Lỗi chính được chia cho số nhãn thực sự đã kiểm (shape + tag), không chia cho số ảnh và không cộng lặp số mục của 12 mã làm mẫu số. Có lỗi nặng hoặc lỗi chính trên 5% thì Rework; còn ca mơ hồ ảnh hưởng kết luận thì Hold; các trường hợp còn lại mới Release theo luật lớp.
@@ -111,9 +111,9 @@ Hai file được lấy từ CVAT bằng **CVAT for images 1.1**, tắt Save ima
 | lequangkhai-front.zip | Có, 12 ảnh | A01: 7/7 | A02: 4/4 | Có, 12/12 |
 | lequangkhai-fisheye.zip | Có, 8 ảnh | B01: 3/3 | B02: 6/6 | Có, 8/8 |
 
-Manifest `lequangkhai-manifest.json` ghi contains_images=false cho cả hai ZIP, checksum SHA-256, revision 1 và số nhãn thực tế. Lint có **8 cảnh báo nặng QC1-02, 0 chính, 0 nhẹ**; giải trình coach nằm ở mục 3. Tôi chưa tự cho điểm hoặc ghi kết luận Release cho lô.
+Manifest `lequangkhai-manifest.json` ghi contains_images=false cho cả hai ZIP, checksum SHA-256, revision 1 và số nhãn thực tế. Lint có **8 cảnh báo nặng QC1-02, 0 chính, 0 nhẹ**; giải trình coach nằm ở mục 3. Kết luận QC sau sửa là Release theo xác nhận Chi đồng ý do tôi cung cấp; đây không phải điểm chấm GT của coach.
 
-Bộ export này lấy sau khi hai job core đã completed và bốn vị trí đã sửa. Phiếu tôi kiểm lô Chi đã được bổ sung từ ảnh phiếu tôi cung cấp và xác nhận đã kiểm qua: hai lỗi QC1-07 ở A10/B03, hai lỗi QC1-11 ở B01/B06; không đếm trùng đối tượng. Số liệu và dấu vân tay file của Chi được chép từ phiếu, chưa đối chiếu độc lập lại hai ZIP trong phiên cập nhật. Phần còn chờ là kết quả sửa/kiểm lại lô Chi, quyết định chính thức của Chi sau sửa và so sánh row-anchor tùy chọn. Tôi chưa coi bộ hồ sơ là hoàn tất toàn bộ rubric khi các phần này chưa được bổ sung.
+Bộ export này lấy sau khi hai job core đã completed và bốn vị trí đã sửa. Phiếu tôi kiểm lô Chi đã được bổ sung từ ảnh phiếu tôi cung cấp và xác nhận đã kiểm qua: hai lỗi QC1-07 ở A10/B03, hai lỗi QC1-11 ở B01/B06; không đếm trùng đối tượng. Số liệu và dấu vân tay file của Chi được chép từ phiếu, chưa đối chiếu độc lập lại hai ZIP trong phiên cập nhật. Bộ hồ sơ cá nhân đã đủ năm file bàn giao; Chi đã đồng ý Release cho lô của tôi theo xác nhận trong trao đổi, và tôi đã tự gửi ảnh minh chứng riêng. Việc Chi sửa lô của Chi để tôi kiểm lại là theo dõi riêng; phần so sánh row-anchor là tùy chọn. Điểm và kết luận chấm rubric do coach quyết định.
 
 ## 6. Ảnh chụp màn hình — minh chứng lưu riêng
 
@@ -164,4 +164,4 @@ Tôi dùng R1 của A01 từ ZIP hiện tại. Hàng nằm ngoài đoạn y củ
 
 **3. Đảo chiều polyline:** với một đường đơn trị theo y, đảo thứ tự điểm không đổi vị trí giao điểm nội suy, nhưng vi phạm quy tắc gần → xa. road_check lint phát hiện trường hợp front có y điểm đầu nhỏ hơn y điểm cuối; rowanchor cũng in cảnh báo về chiều. Vì thế giữ chiều đúng giúp thống nhất dữ liệu và giảm lỗi trong bước xử lý dựa vào thứ tự điểm.
 
-Nguồn yêu cầu và cách xử lý: guideline Road v1.0, mẫu báo cáo và quy tắc bàn giao trong repo của lớp. Những phần chờ Chi ở mục 4 và câu 2 mục 8 sẽ được cập nhật khi có dữ liệu và kiểm chéo thực tế.
+Nguồn yêu cầu và cách xử lý: guideline Road v1.0, mẫu báo cáo và quy tắc bàn giao trong repo của lớp. Mục 4 đã ghi nhận Chi đồng ý Release theo xác nhận của tôi. Câu 2 mục 8 là phần so sánh tùy chọn, cập nhật nếu có polyline của Chi.
