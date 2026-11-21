@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Day11: Export ban cuoi sau Finish",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["scripts/export_local_draft.py", "--username", "hocvien", "--name", "lequangkhai", "--out", "submissions", "--final", "--revision", "1"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "presentation": {"reveal": "always", "focus": true},
+      "problemMatcher": []
+    },
+    {
+      "label": "Day11: Kiem 5 file nop bai",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["scripts/check_delivery.py", "--directory", "submissions", "--name", "lequangkhai", "--peer", "hoangkimchi"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "presentation": {"reveal": "always"},
+      "problemMatcher": []
+    }
+  ]
+}

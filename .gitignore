@@ -7,3 +7,12 @@ submissions/
 out/
 *.zip
 .env
+.venv/
+.cache/
+work/
+!lms_submission/lequangkhai-front.zip
+!lms_submission/lequangkhai-fisheye.zip
+
+# Personal local handoff; public entry point is LMS_SUBMISSION.md
+/HUONG_DAN_TIEP_THEO.md
+/.gstack/

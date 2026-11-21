@@ -1,0 +1,67 @@
+{
+  "schema": "day11-submission-status/1",
+  "student": {
+    "name": "Lê Quang Khải",
+    "id": "2A202603237"
+  },
+  "scope": "Partial submission, as requested; peer-QC of Chi will be supplied later",
+  "core_images": 20,
+  "shapes": 129,
+  "core_tags": 80,
+  "annotation_source": "manual",
+  "core_jobs": [
+    {
+      "id": 39,
+      "state": "completed"
+    },
+    {
+      "id": 41,
+      "state": "completed"
+    }
+  ],
+  "targeted_geometry_checks": [
+    {
+      "image": "A01",
+      "position": "L2",
+      "reference_point": [
+        100,
+        571
+      ],
+      "distance_after_px": 0.0
+    },
+    {
+      "image": "A10",
+      "position": "L2",
+      "reference_point": [
+        260,
+        522
+      ],
+      "distance_after_px": 0.0
+    },
+    {
+      "image": "B03",
+      "position": "L1",
+      "reference_point": [
+        770,
+        345
+      ],
+      "distance_after_px": 2.967301475883524
+    },
+    {
+      "image": "B06",
+      "island_reference_point": [
+        1000,
+        470
+      ],
+      "inside_crosswalk_after": false
+    }
+  ],
+  "related_adjustment": "B03 drivable direct boundary follows repaired L1",
+  "verification_limit": "Local paint-reference checks only; not GT score or full Release",
+  "peer_qc_of_chi": "pending user-provided files/results",
+  "remaining_required": [
+    "Complete lequangkhai-qc1-for-hoangkimchi.md when learner provides actual QC of Chi"
+  ],
+  "lint_qc1_02": "Eight warnings retained, with student-reported coach resolution in COACH_RESOLUTIONS.md",
+  "image_evidence": "Full screenshot evidence retained locally for private classroom delivery; excluded from public repo"
+}

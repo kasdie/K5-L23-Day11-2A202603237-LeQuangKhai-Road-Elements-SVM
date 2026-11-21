@@ -1,5 +1,9 @@
 # Ngày 11 · Road Elements & SVM
 
+> Học viên **Lê Quang Khải — 2A202603237**: xem [bộ bàn giao và trạng thái chuẩn bị nộp LMS](LMS_SUBMISSION.md). Đã sửa các điểm hình học, hoàn tất hai job core và cập nhật export/báo cáo; phiếu Khải kiểm lô Chi sẽ bổ sung sau. Chưa phải kết luận Release cho toàn bộ rubric.
+
+> Trạng thái và giới hạn kiểm tra: [LAB_STATUS.json](LAB_STATUS.json). Giải trình coach: [COACH_RESOLUTIONS.md](COACH_RESOLUTIONS.md). Công cụ phụ cho môi trường local nằm trong scripts/; không kèm dữ liệu ảnh hay tài khoản.
+
 > Lab cá nhân, AI20K K5. Bạn gán nhãn phần tử đường theo guideline Road v1.0 trên CVAT của lớp: 12 ảnh camera trước BDD100K (A01–A12) và 8 ảnh fisheye WoodScape (B01–B08) là bắt buộc. Sau đó bạn kiểm lô của một bạn khác bằng Phiếu QC 1 và quyết định Release, Hold hoặc Rework. Nếu xong sớm, làm thêm ảnh A13–A16 và B09–B12 để lấy điểm thưởng. Không đưa ảnh lên app.cvat.ai.
 
 | M | Giờ | Việc | Lệnh kiểm tra |
@@ -14,7 +18,7 @@
 
 ## Cài đặt
 
-Chỉ cần Python 3.11 trở lên; code chỉ dùng thư viện chuẩn. Muốn chạy test thì cài thêm pytest.
+Các module `road_lab` cần Python 3.11 trở lên và chỉ dùng thư viện chuẩn. Muốn chạy test thì cài thêm pytest. Các script phụ cho CVAT local và ảnh minh chứng có phụ thuộc riêng trong [requirements-dev.txt](requirements-dev.txt); [scripts/setup.sh](scripts/setup.sh) tạo `.venv`, cài các phụ thuộc này và chạy self-test/test.
 
 ```bash
 git pull
